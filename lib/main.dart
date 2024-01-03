@@ -39,7 +39,6 @@ class _MyHomePageState extends State<MyHomePage> {
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                // Ваш код для обработки нажатия кнопки
                 String enteredText = _textEditingController.text;
                 print('Введенный текст: $enteredText');
               },
